@@ -35,12 +35,12 @@
 // }
 
 //დავალება 4
-// let shippingIsPossible = true;
-// let text = `თქვენს მისამართზე მიტანის სერვისი ხელმისაწვდომი ${
-//   shippingIsPossible ? "არის" : "არ არის"
-// } `;
+let shippingIsPossible = true;
+let text = `თქვენს მისამართზე მიტანის სერვისი ხელმისაწვდომი ${
+  shippingIsPossible ? "არის" : "არ არის"
+} `;
 
-// console.log(text);
+console.log(text);
 
 // დავლება 5
 // let userLoggedIn = false;
@@ -101,7 +101,7 @@
 
 // let math =gigosTestResults[2] -gigosTestResults[0]
 
-// if (math <10) {
+// if (math < 10) {
 //     console.log("ნიჭიერია მარა ზარმაცი");
 
 // }else{
@@ -112,7 +112,7 @@
 
 // let gigosTestResults = [60  , 62]
 
-// let math =gigosTestResults[1] - gigosTestResults[0]
+// let math = gigosTestResults[1] - gigosTestResults[0]
 // console.log(math);
 
 // if (math <= 2) {
@@ -129,9 +129,10 @@ function isBigEnough(value) {
 
 const gigosResults = [50,25 , 90, 44].filter(isBigEnough);
 
-if (gigosResults.length>=4) {
+if (gigosResults.length >= 4) {
   console.log('გილოცავ :))');
   
 } else {
   console.log('მაგრად გადაურჩი 4 წლიან არაფერს');
 }
+
